@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Email_RegEx_textfile.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/example.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Email_RegEx.py" afterPath="$PROJECT_DIR$/Email_RegEx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegEx.py" afterPath="$PROJECT_DIR$/RegEx.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RegEx.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegEx.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RegEx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="104">
+              <caret line="903" column="29" lean-forward="true" selection-start-line="903" selection-start-column="29" selection-end-line="903" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -40,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Email_RegEx_textfile.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Email_RegEx_textfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Email_RegEx_textfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="180">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,9 +62,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/RegEx.py" />
         <option value="$PROJECT_DIR$/Email_RegEx.py" />
         <option value="$PROJECT_DIR$/Email_RegEx_textfile.py" />
+        <option value="$PROJECT_DIR$/RegEx.py" />
       </list>
     </option>
   </component>
@@ -363,14 +360,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RegEx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -389,8 +378,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Email_RegEx_textfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="180">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegEx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="903" column="29" lean-forward="true" selection-start-line="903" selection-start-column="29" selection-end-line="903" selection-end-column="29" />
           <folding />
         </state>
       </provider>
