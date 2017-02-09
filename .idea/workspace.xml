@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Even.py" afterPath="$PROJECT_DIR$/Even.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/even_pro.py" afterPath="$PROJECT_DIR$/even_pro.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Even.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Even.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Even.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="even_pro.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/even_pro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -130,6 +140,7 @@
         <option value="$PROJECT_DIR$/factorial.py" />
         <option value="$PROJECT_DIR$/getpass_package.py" />
         <option value="$PROJECT_DIR$/Even.py" />
+        <option value="$PROJECT_DIR$/even_pro.py" />
       </list>
     </option>
   </component>
@@ -182,24 +193,7 @@
   <component name="PyConsoleOptionsProvider">
     <option name="myShowDebugConsoleByDefault" value="true" />
   </component>
-  <component name="RunManager" selected="Python.Binary">
-    <configuration default="false" name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/factorial.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.even_pro">
     <configuration default="false" name="Class_Basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,6 +258,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Binary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="even_pro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLearningProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/even_pro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -403,19 +414,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.factorial" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Class_Basic" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Square" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Binary" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Class_Basic" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Square" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Array" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Binary" />
+      <item index="4" class="java.lang.String" itemvalue="Python.even_pro" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Binary" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Array" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Square" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Class_Basic" />
-        <item index="4" class="java.lang.String" itemvalue="Python.factorial" />
+        <item index="0" class="java.lang.String" itemvalue="Python.even_pro" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Binary" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Array" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Square" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Class_Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -612,6 +623,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/even_pro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
