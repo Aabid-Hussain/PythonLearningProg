@@ -8,7 +8,7 @@ class objclass:
     def getString(self):
         self.s = raw_input()
     def printString(self):
-        print self.s.upper()
+        print self.s.upper()r
 
 
 strObj = objclass() #initialized class
