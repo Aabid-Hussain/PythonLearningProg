@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Array.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Binary.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Square.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Class_Basic.py" afterPath="$PROJECT_DIR$/Class_Basic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Binary.py" afterPath="$PROJECT_DIR$/Binary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factorial.py" afterPath="$PROJECT_DIR$/factorial.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getpass_package.py" afterPath="$PROJECT_DIR$/getpass_package.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,6 +19,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="divisible7_notmulti5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/divisible7_notmulti5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="factorial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factorial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getpass_package.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getpass_package.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Class_Basic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Class_Basic.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Binary.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Binary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Binary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,12 +114,13 @@
         <option value="$PROJECT_DIR$/Reg_Back_Reference.py" />
         <option value="$PROJECT_DIR$/Check_Route_RegEx.py" />
         <option value="$PROJECT_DIR$/RegEx_FloatingPoint_Num.py" />
-        <option value="$PROJECT_DIR$/divisible7_notmulti5.py" />
-        <option value="$PROJECT_DIR$/factorial.py" />
         <option value="$PROJECT_DIR$/Class_Basic.py" />
         <option value="$PROJECT_DIR$/Square.py" />
         <option value="$PROJECT_DIR$/Array.py" />
         <option value="$PROJECT_DIR$/Binary.py" />
+        <option value="$PROJECT_DIR$/divisible7_notmulti5.py" />
+        <option value="$PROJECT_DIR$/factorial.py" />
+        <option value="$PROJECT_DIR$/getpass_package.py" />
       </list>
     </option>
   </component>
@@ -511,22 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/divisible7_notmulti5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class_Basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -556,8 +569,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/divisible7_notmulti5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getpass_package.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
