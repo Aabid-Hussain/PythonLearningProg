@@ -1,16 +1,11 @@
 import re
 
-randStr ="This is my number 412-555-1214"
+Device_Log = "adfd sdf 12 25.25 5.255.255 55.5 192.169.1.2 1.1.1.1 adf 2.0 999.999.999.999"
 
-regex = re.compile(r"412-(.*)-(.*)")#r"412-([\d]{3})-([\d]{4})"
+RegEx = r"\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b"
 
-matches = re.findall(regex,randStr)
+match = re.findall(RegEx,Device_Log)
 
-print len(matches)
-print matches
-for i in matches:
-    print i
-print matches[0][0]
-print matches[0][1]
+for line in match:
+    print line
 
-#
