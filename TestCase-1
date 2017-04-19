@@ -1,0 +1,7 @@
+*** Settings ***
+Library  MyLibrary.MyClassNew
+
+*** Test Cases ***
+My Test
+    Do Nothing
+    Hello    world
