@@ -32,6 +32,6 @@ def begin():
         print(line4)
         if c == (int(dem) - 1):
             print(line3)
-   # begin()
+    #begin()
 
 begin()
