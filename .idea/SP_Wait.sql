@@ -3,6 +3,14 @@ GO
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER OFF
+Create PROCEDURE [dbo].[sp_sp_start_job_wait]
+
+If Exists (select * from sysobjects where type='p'and name= 'SP_wait')
+Begin
+	Drop procedure [dbo].[SP_wait]
+End
+GO
+Create PROCEDURE [dbo].[SP_wait]
 (
 @job_name SYSNAME,
 @WaitTime DATETIME = '00:10:00',
