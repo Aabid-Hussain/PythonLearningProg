@@ -9,3 +9,17 @@ Then, the output of the program should be:
 [0, 1, 2, 3, 4], 
 [0, 2, 4, 6, 8]] 
 '''
+
+InputData = [x for x in raw_input("Enter comma separated values: ").split(',')]
+row = int(InputData[0])
+col = int(InputData[1])
+
+metrix = [[colCons for colCons in range(col)] for rowCons in range(row)]
+
+for i in range(row):
+    for j in range(col):
+        metrix[i][j] = i*j
+
+print metrix
+
+
