@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/Class_Prac.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/RectClass.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Challenge/SquareClass.py" afterPath="$PROJECT_DIR$/Challenge/SquareClass.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class_Prac.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Class_Prac.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Challenge/Class_Prac.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectClass.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Challenge/RectClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,6 +119,7 @@
         <option value="$PROJECT_DIR$/SquareClass.py" />
         <option value="$PROJECT_DIR$/Challenge/SquareClass.py" />
         <option value="$PROJECT_DIR$/Challenge/Class_Prac.py" />
+        <option value="$PROJECT_DIR$/Challenge/RectClass.py" />
       </list>
     </option>
   </component>
@@ -194,25 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Class_Prac">
-    <configuration default="false" name="Ques8" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Challenge" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Ques8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.RectClass">
     <configuration default="false" name="Ques9" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,6 +272,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Class_Prac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RectClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLearningProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/RectClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -424,19 +434,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Reg_Prac" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Ques8" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Ques9" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SquareClass" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SquareClass (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Class_Prac" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Ques9" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SquareClass" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SquareClass (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Class_Prac" />
+      <item index="5" class="java.lang.String" itemvalue="Python.RectClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Class_Prac" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SquareClass (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SquareClass" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Ques9" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Ques8" />
+        <item index="0" class="java.lang.String" itemvalue="Python.RectClass" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Class_Prac" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SquareClass (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SquareClass" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Ques9" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -617,13 +627,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/divisible7_notmulti5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factorial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -917,8 +920,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Challenge/Class_Prac.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="55" selection-start-column="6" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/RectClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
