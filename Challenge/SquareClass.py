@@ -3,7 +3,9 @@
 # Getters and Setters are used to protect our objects
 # from assigning bad fields or for providing improved
 # output
-class Square:
+
+class Square(object):
+
     def __init__(self, height="0", width="0"):
         self.height = height
         self.width = width
@@ -19,7 +21,6 @@ class Square:
     # This is the setter
     @height.setter
     def height(self, value):
-
 
         # We protect the height from receiving a bad value
         if value.isdigit():
@@ -46,19 +47,18 @@ class Square:
     def getArea(self):
         return int(self.__width) * int(self.__height)
 
-
 def main():
     aSquare = Square()
 
-    height = input("Enter height : ")
-    width = input("Enter width : ")
+    height = raw_input("Enter height : ")
+    width = raw_input("Enter width : ")
 
     aSquare.height = height
     aSquare.width = width
 
-    print("Height :", aSquare.height)
-    print("Width :", aSquare.width)
+    print "Height :", aSquare.height
+    print "Width :", aSquare.width
 
-    print("The Area is :", aSquare.getArea())
+    print "The Area is :", aSquare.getArea()
 
 main()
