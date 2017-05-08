@@ -6,8 +6,12 @@ hello world and practice makes perfect and hello world again
 Then, the output should be:
 again and hello makes perfect practice world '''
 
-InputData = raw_input("Enter input with whitespace separated: ").split(" ")
+#InputData = raw_input("Enter input with whitespace separated: ").split(" ")
 
-print " ".join(sorted(list(set(InputData))))
+InputData = raw_input("Enter Input: ")
+
+StrRand = [dig for dig in InputData.split(" ")]
+
+print " ".join(sorted(list(set(StrRand))))
 
 
