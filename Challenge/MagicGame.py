@@ -16,7 +16,7 @@ class Warrior(object):
         return self.__name
 
     @name.setter
-    def name(self,name):
+    def name(self, name):
         self.__name = name
 
 
@@ -27,10 +27,25 @@ class Warrior(object):
 
     @health.setter
     def health(self, health):
-        self.health = health
+        self.__health = health
 
+    @property
+    def attackMax(self):
+        print "Retrieving attackMax of Warrior"
+        return self.__attackMax
 
+    @attackMax.setter
+    def attackMax(self, attackMax):
+        self.__attackMax = attackMax
 
+    @property
+    def blockMax(self):
+        print "Retrieving blockMax of Warrior"
+        return self.__blockMax
+
+    @blockMax.setter
+    def blockMax(self, blockMax):
+        self.__blockMax = blockMax
 
     def attack(self):
         atkAmt = self.attackMax * (random.random() + 0.5)
