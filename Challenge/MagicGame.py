@@ -10,6 +10,28 @@ class Warrior(object):
         self.attackMax = attackMax
         self.blockMax = blockMax
 
+    @property
+    def name(self):
+        print "Retrieving Name of Warrior: "
+        return self.__name
+
+    @name.setter
+    def name(self,name):
+        self.__name = name
+
+
+    @property
+    def health(self):
+        print "Retrieving Health of Warrior"
+        return self.__health
+
+    @health.setter
+    def health(self, health):
+        self.health = health
+
+
+
+
     def attack(self):
         atkAmt = self.attackMax * (random.random() + 0.5)
 
