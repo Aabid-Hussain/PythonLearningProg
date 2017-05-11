@@ -1,15 +1,27 @@
 import random
 import math
 
-#warrior & Battle Class
+
+# warrior & Battle Class
 class Warrior(object):
 
-    def __init__(self,name="warrior",health=0,attackMax=0,blockMax=0):
+    def __init__(self, name="warrior", health=0, attackMax=0, blockMax=0):
         self.name = name
         self.health = health
         self.attackMax = attackMax
         self.blockMax = blockMax
 
+    def attack(self):
+        atkAmt = self.attackMax * (random.random() + 0.5)
+
+        return atkAmt
+
+
+    def block(self):
+        blockAmt = self.blockMax * (random.random() + 0.5)
+
+        return blockAmt
+'''
     @property
     def name(self):
         print "Retrieving Name of Warrior: "
@@ -45,31 +57,21 @@ class Warrior(object):
 
     @blockMax.setter
     def blockMax(self, blockMax):
-        self.__blockMax = blockMax
+        self.__blockMax = blockMax  '''
 
-    def attack(self):
-        atkAmt = self.attackMax * (random.random() + 0.5)
 
-        return atkAmt
 
-    def block(self):
-        blockAmt = self.blockMax * (random.random() + 0.5)
-
-        return blockAmt
 
 class Battle(object):
-
-    def startFight(self,warrior1,warrior2):
+    def startFight(self, warrior1, warrior2):
 
         while True:
 
-            if self.getAttkResult(warrior1,warrior2) == "Game Over":
-
+            if self.getAttkResult(warrior1, warrior2) == "Game Over":
                 print "Game Over"
                 break
 
-            if self.getAttkResult(warrior2,warrior1) == "Game Over":
-
+            if self.getAttkResult(warrior2, warrior1) == "Game Over":
                 print "Game Over"
                 break
 
@@ -80,12 +82,12 @@ class Battle(object):
 
         warriorBBlkAmt = warriorB.block()
 
-        damage2warriorB = math.ceil( warriorAAttkAmt - warriorBBlkAmt)
+        damage2warriorB = math.ceil(warriorAAttkAmt - warriorBBlkAmt)
 
         warriorBHealth = warriorB.health - damage2warriorB
 
         print("{} attacks {} and deals {} damage".format(warriorA.name,
-                        warriorB.name, damage2warriorB))
+                                                         warriorB.name, damage2warriorB))
 
         print("{} is down to {} health".format(warriorB.name,
                                                warriorB.health))
@@ -95,21 +97,21 @@ class Battle(object):
                                                             warriorA.name))
 
             return "Game Over"
+
         else:
             return "Fight Again"
 
+
 def main():
+    # Create 2 Warriors
+    Aabid = Warrior("Aabid", 50, 20, 10)
+    Hussain = Warrior("Hussain", 50, 20, 10)
 
-        # Create 2 Warriors
-        paul = Warrior("Paul", 50, 20, 10)
-        sam = Warrior("Sam", 50, 20, 10)
+    # Create Battle object
+    battle = Battle()
 
-        # Create Battle object
-        battle = Battle()
+    # Initiate Battle
+    battle.startFight(Aabid, Hussain)
 
-        # Initiate Battle
-        battle.startFight(paul, sam)
 
 main()
-
-
