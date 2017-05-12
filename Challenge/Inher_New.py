@@ -7,7 +7,7 @@ class Animal(object):
 
     @property
     def birthType(self):
-        print ()
+        
         return self.__birthType
 
     @birthType.setter
@@ -16,7 +16,7 @@ class Animal(object):
 
     @property
     def appearance(self):
-        print ()
+        
         return self.__appearance
 
     @appearance.setter
@@ -25,7 +25,7 @@ class Animal(object):
 
     @property
     def blooded(self):
-        print ()
+        
         return self.__blooded
 
     @blooded.setter
@@ -58,6 +58,21 @@ class Mammal(Animal):
     def __str__(self):
         return Animal().__str__() + " and it is {} that they nurse"\
                             "their Young".format(self.nurseYoung)
+class Reptile(Animal):
+
+    def __init__(self,birthType = "born in an egg, born alive",appearance = "egg cell",
+                  blooded = "Cold blooded"):
+        Animal.__init__(self,birthType,appearance,blooded)
+
+    def __str__(self):
+        return Animal().__str__() + " and it is {} ".format(type(self).__name__)
+
+    def SumRandom(self, *argv):
+        Sum =0
+        for i in argv:
+            Sum +=i
+        return Sum
+
 
 def main():
 
@@ -65,6 +80,11 @@ def main():
 
     print Animal1.birthType
     print Animal1
+
+    Rep = Reptile()
+    print Rep
+    print Rep.SumRandom(1,2,3,4,5)
+
 
 main()
 
