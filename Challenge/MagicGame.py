@@ -92,7 +92,7 @@ class Battle(object):
         print("{} is down to {} health".format(warriorB.name,
                                                warriorB.health))
 
-        if warriorB.health <= 0:
+        if warriorBHealth <= 0:
             print("{} has Died and {} is Victorious".format(warriorB.name,
                                                             warriorA.name))
 
