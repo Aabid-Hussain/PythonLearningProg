@@ -1,13 +1,13 @@
 class Animal(object):
 
     def __init__(self, birthType ="Unknown", appearance = "Unknown", blooded = "Unknown"):
-        self.birthType = birthType
+        self.__birthType = birthType
         self.appearance = appearance
         self.blooded = blooded
 
     @property
     def birthType(self):
-        
+        print
         return self.__birthType
 
     @birthType.setter
@@ -16,7 +16,7 @@ class Animal(object):
 
     @property
     def appearance(self):
-        
+        print
         return self.__appearance
 
     @appearance.setter
@@ -25,7 +25,7 @@ class Animal(object):
 
     @property
     def blooded(self):
-        
+        print
         return self.__blooded
 
     @blooded.setter
@@ -48,16 +48,17 @@ class Mammal(Animal):
 
     @property
     def nurseYoung(self):
-        print()
+
         return self.__nurseYoung
 
     @nurseYoung.setter
     def nurseYoung(self,nurseYoung):
+        print
         self.__nurseYoung = nurseYoung
 
     def __str__(self):
-        return Animal().__str__() + " and it is {} that they nurse"\
-                            "their Young".format(self.nurseYoung)
+        return self.__str__() + " and it is {} that they nurse"\
+                            "their Young".format(self.__nurseYoung)
 class Reptile(Animal):
 
     def __init__(self,birthType = "born in an egg, born alive",appearance = "egg cell",
@@ -73,18 +74,27 @@ class Reptile(Animal):
             Sum +=i
         return Sum
 
+def getbirthType(theObject):
+    return "{} is {}".format(type(theObject).__name__,theObject.birthType)
 
 def main():
 
-    Animal1  = Animal("deer")
+    Animal1  = Animal("born alive")
 
     print Animal1.birthType
     print Animal1
 
+    Mam = Mammal()
+    print Mam.birthType
+    print Mam.appearance
+    print Mam.blooded
+    print Mam.nurseYoung
+
     Rep = Reptile()
-    print Rep
     print Rep.SumRandom(1,2,3,4,5)
 
+    print getbirthType(Mam)
+    print getbirthType(Rep)
 
 main()
 
