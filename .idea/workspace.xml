@@ -2,13 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/Exception.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/Rational_Number.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/TimeClass.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/Vehicle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/shape.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/Head&amp;Tail.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/PrNew_problem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/Pr_problem.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/lesson12.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/problem12.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Challenge/problem13.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Array.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Binary.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Class_Basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DashBoad_Create.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Email_RegEx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Email_RegEx_textfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Even.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Guess_Game.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/List_pro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyLibrary.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Name_Entry.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OOP1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Odd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Print_Eliments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Print_Num.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RegEx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RegEx_FloatingPoint_Num.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg_Back_Reference.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reg_Prac.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SP_Wait.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Square.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Var_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vowel_Count.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/count_of_digit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dev.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/divisible7_notmulti5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/even_pro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/factorial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/file_manupu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/function.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gcd_fun2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/getpass_package.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/largest_3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/largest_smallest_4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/loop_module.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prac_fun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prime_fun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sort_list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/string_manu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sum_of_digit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sum_pro_fun.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sum_prod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/telnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/telnet_home.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Challenge/Inher_New.py" afterPath="$PROJECT_DIR$/Challenge/Inher_New.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,83 +71,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="shape.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challenge/shape.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1643">
-              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vehicle.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challenge/Vehicle.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1891">
-              <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MagicGame.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challenge/MagicGame.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3317">
-              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challenge/Inher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Rational_Number.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Challenge/Rational_Number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1271">
+            <state relative-caret-position="729">
               <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inher_New.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challenge/Inher_New.py">
+      <file leaf-file-name="lesson12.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Challenge/lesson12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2077">
-              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="775">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeClass.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Challenge/TimeClass.py">
+      <file leaf-file-name="problem12.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Challenge/problem12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            <state relative-caret-position="775">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exception.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Challenge/Exception.py">
+      <file leaf-file-name="problem13.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Challenge/problem13.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="465">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Head&amp;Tail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Challenge/Head&amp;Tail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pr_problem.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Challenge/Pr_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrNew_problem.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Challenge/PrNew_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -145,13 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Class_Basic.py" />
-        <option value="$PROJECT_DIR$/Square.py" />
-        <option value="$PROJECT_DIR$/Array.py" />
-        <option value="$PROJECT_DIR$/Binary.py" />
-        <option value="$PROJECT_DIR$/divisible7_notmulti5.py" />
-        <option value="$PROJECT_DIR$/factorial.py" />
-        <option value="$PROJECT_DIR$/getpass_package.py" />
         <option value="$PROJECT_DIR$/Even.py" />
         <option value="$PROJECT_DIR$/even_pro.py" />
         <option value="$PROJECT_DIR$/Reg_Prac.py" />
@@ -196,6 +222,13 @@
         <option value="$PROJECT_DIR$/Challenge/TimeClass.py" />
         <option value="$PROJECT_DIR$/Challenge/Vehicle.py" />
         <option value="$PROJECT_DIR$/Challenge/Exception.py" />
+        <option value="$PROJECT_DIR$/Challenge/lesson12.py" />
+        <option value="$PROJECT_DIR$/Challenge/problem12.py" />
+        <option value="$PROJECT_DIR$/Challenge/problem13.py" />
+        <option value="$PROJECT_DIR$/Challenge/Head&amp;Tail.py" />
+        <option value="$PROJECT_DIR$/prime.py" />
+        <option value="$PROJECT_DIR$/Challenge/Pr_problem.py" />
+        <option value="$PROJECT_DIR$/Challenge/PrNew_problem.py" />
       </list>
     </option>
   </component>
@@ -252,8 +285,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,8 +313,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Exception">
-    <configuration default="false" name="Inher_New" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PrNew_problem">
+    <configuration default="false" name="Head&amp;Tail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -293,13 +326,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Inher_New.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Head&amp;Tail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="shape" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Pr_problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -311,49 +344,49 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/shape.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Pr_problem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="TimeClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Challenge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/TimeClass.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Vehicle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="prime_fun" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Challenge" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Vehicle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prime_fun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Exception" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="PrNew_problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -365,7 +398,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/Exception.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Challenge/PrNew_problem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -510,19 +543,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Reg_Prac" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Inher_New" />
-      <item index="2" class="java.lang.String" itemvalue="Python.shape" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TimeClass" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Vehicle" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Exception" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Head&amp;Tail" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Pr_problem" />
+      <item index="3" class="java.lang.String" itemvalue="Python.prime" />
+      <item index="4" class="java.lang.String" itemvalue="Python.prime_fun" />
+      <item index="5" class="java.lang.String" itemvalue="Python.PrNew_problem" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Exception" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Vehicle" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TimeClass" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Inher_New" />
-        <item index="4" class="java.lang.String" itemvalue="Python.shape" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PrNew_problem" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Pr_problem" />
+        <item index="2" class="java.lang.String" itemvalue="Python.prime_fun" />
+        <item index="3" class="java.lang.String" itemvalue="Python.prime" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Head&amp;Tail" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -639,25 +672,26 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2518797" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09076262" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.4958159" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5041841" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3555317" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Running Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -730,62 +764,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Github_Network-Scripting/R1Script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Github_Network-Scripting/RX_Script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegEx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="659" column="17" lean-forward="false" selection-start-line="659" selection-start-column="17" selection-end-line="659" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegEx_FloatingPoint_Num.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Github_Network-Scripting/IpRegEx_3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reg_Prac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Scripts/ride.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Github_Network-Scripting/ip_address.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestCase-1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1003,37 +981,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Challenge/Inher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Challenge/MagicGame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3317">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Challenge/Inher_New.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2077">
-          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Challenge/Rational_Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1271">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,6 +1011,94 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/Inher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/Rational_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/Inher_New.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/lesson12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/problem12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/problem13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/Head&amp;Tail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prime_fun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/Pr_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/PrNew_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
