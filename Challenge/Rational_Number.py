@@ -59,9 +59,9 @@ def main():
     a = RationalNumber(1,2)
     b = RationalNumber(2,5)
 
-    print a
-    print b
-    print a+b
-    print a*b
+    print (a)
+    print (b)
+    print (a+b)
+    print (a*b)
 
 main()
