@@ -6,7 +6,7 @@ class Square(object):
 
     @property
     def height(self):
-        print "Retrieving Height value: "
+        print("Retrieving Height value: ")
 
         return self.__height
     @height.setter
@@ -15,12 +15,12 @@ class Square(object):
         if value.isdigit():
             self.__height =value
         else:
-            print "Please enter integer\n"
+            print("Please enter integer\n")
 
     @property
     def width(self):
 
-            print "Retrieving Width value: "
+            print("Retrieving Width value: ")
 
             return self.__width
     @width.setter
@@ -30,7 +30,7 @@ class Square(object):
 
             self.__width = value
         else:
-            print "Please enter integer \n"
+            print( "Please enter integer \n")
 
     def getArea(self):
 
@@ -40,16 +40,16 @@ def main():
 
     aSquare = Square()
 
-    height = raw_input("Height: ")
-    width = raw_input("Width: ")
+    height = input("Height: ")
+    width = input("Width: ")
 
     aSquare.height = height
     aSquare.width = width
 
-    print aSquare.height
-    print aSquare.width
+    print (aSquare.height)
+    print (aSquare.width)
 
-    print "Area : ", aSquare.getArea()
+    print("Area : ", aSquare.getArea())
 
 
 
