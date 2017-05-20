@@ -12,8 +12,6 @@ try:
         yield "ESPN"
 
 
-    itr = remote_control_next
-
     print(next(itr))
     print(next(itr))
     print(next(itr))
