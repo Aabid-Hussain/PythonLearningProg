@@ -1,6 +1,6 @@
 def itemgetter(*items):
-    for i in items:
-        print(i)
+    # for i in items:
+    #     print(i)
     if len(items) == 1:
         item = items[0]
         def g(ob):
