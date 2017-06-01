@@ -26,3 +26,5 @@ p2 = poly_constant(-1, 2, 1)
 for x in range(-2, 2, 1):
     print(x, p1(x), p2(x))
 
+
+
