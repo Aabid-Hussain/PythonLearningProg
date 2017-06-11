@@ -34,8 +34,8 @@ class Animal(object):
 
     def __str__(self):
 
-        return "An {} is {}, it has {}, it is {} ".format(type(self).__name__, self.birthType,
-                                                         self.appearance,self.blooded)
+        return "An {} is {}, it has {}, it is {} ".format(type(self).__name__,
+                            self.birthType, self.appearance,self.blooded)
 
 class Mammal(Animal):
 
