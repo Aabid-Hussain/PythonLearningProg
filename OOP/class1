@@ -1,0 +1,96 @@
+class Boat():
+    pass
+
+
+my_boat = Boat()
+my_boat2 = Boat()
+
+if my_boat is my_boat2:
+    print("both boat is pointing to same memory")
+# else:
+#     raise Exception("Both are not equal")
+
+hex_str_boat = str(my_boat)[-12:-1]
+hex_str_boat2 = str(my_boat2)[-12:-1]
+
+print(int(hex_str_boat,16))
+print(hex_str_boat2)
+
+
+class New_Boat:
+    def __init__(self):
+        self.cargo_weight = 23
+
+def change_cargo_weight(ship):
+    ship.cargo_weight = 45
+
+boat = New_Boat()
+print(boat.cargo_weight)
+change_cargo_weight(boat)
+print(boat.cargo_weight)
+
+
+class Human:
+
+    #Initializer or constructor
+
+    def __init__(self, name, gender):
+        self.name = name
+        self.gender = gender
+
+    def speak_name(self):
+        print("My name is {}".format(self.name))
+
+    def speak(self, text):
+        print(text)
+
+    def perform_math_task(self, math_operation, *args):
+        print("%s performed a math operation and the "
+              "result was %d "%(self.name, math_operation(*args)))
+
+
+def add(a,b):
+    return a + b
+
+aish = Human("Aishwary Gautam", "Male")
+
+aish.perform_math_task(add, 34, 67)
+
+
+class Rectangle:
+
+    def __init__(self, width, length):
+
+        self.width = width
+        self.length = length
+
+    def area(self):
+        return self.width * self.length
+
+    def perimeter(self):
+        return 2*(self.width + self.length)
+
+my_rect = Rectangle(5,6)
+
+print("Area: {}".format(my_rect.area()))
+print("Perimeter: {}".format(my_rect.perimeter()))
+
+
+class Character:
+
+    #static/class variables
+    total_number_of_characters = 0
+    MAX_HEALTH = 150
+
+    def __init__(self, name):
+        #static variable uses syntax "class.variable"
+
+        self.health = Character.MAX_HEALTH
+        Character.total_number_of_characters += 1
+        self.name = name
+
+
+bob = Character("Bob")
+ryan = Character("Aabid")
+
+print(Character.total_number_of_characters)
