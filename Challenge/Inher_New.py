@@ -42,7 +42,8 @@ class Mammal(Animal):
     def __init__(self,birthType = "born alive",appearance = "hairy or fur",
                   blooded = "Warm blooded", nurseYoung = True):
 
-        Animal.__init__(self,birthType,appearance, blooded)
+        #Animal.__init__(self,birthType,appearance, blooded)
+        super().__init__(birthType,appearance,blooded)
 
         self.nurseYoung = nurseYoung
 
@@ -53,7 +54,7 @@ class Mammal(Animal):
 
     @nurseYoung.setter
     def nurseYoung(self,nurseYoung):
-        print
+        print()
         self.__nurseYoung = nurseYoung
 
     def __str__(self):
