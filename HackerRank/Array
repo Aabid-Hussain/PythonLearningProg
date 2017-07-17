@@ -1,0 +1,9 @@
+import sys
+
+n = int(input().strip())
+arr = [int(arr_temp) for arr_temp in input().strip().split(' ')]
+add_str = ''
+for i in range(len(arr) - 1, -1, -1):
+    add_str += str(arr[i]) + " "
+
+print(add_str)
