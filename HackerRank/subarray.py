@@ -19,6 +19,7 @@ Sum = 0
 #
 
 print(Sum)
+Sum += 2 * sum(arr)
 for i in range(len(arr)):
     j = i+1
     if j<len(arr):
@@ -26,12 +27,21 @@ for i in range(len(arr)):
 
 print(Sum)
 
-arr = list((75, 180))
+arr = list((+110., 180))
 
 ap = str(arr).lstrip('([').rstrip(')]').split(',')
 
+ap1 = float(ap[0])
+ap2 = float(ap[1])
 
-print(ap)
+if ap1 >= -90.0 and ap1 <= +90.0:
+    if ap2 >= -180.0 and ap2 <= +180.0:
+        print("Valid")
+
+    else:
+        print("Invalid")
+else:
+    print("Invalid")
 
 
 
