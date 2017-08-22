@@ -1,30 +1,17 @@
-'''
+from random import random, randint, choice
+
 def our_decorator(func):
-    def function_wrapper(x):
+    def function_wrapper(*args, **kwargs):
         print("Before calling " + func.__name__)
-        func(x)
+        res = func(*args, **kwargs)
+        print(res)
         print("After calling " + func.__name__)
     return function_wrapper
 
-@our_decorator
-def foo(x):
-    print("Hi, foo has been called with " + str(x))
+random = our_decorator(random)
+randint = our_decorator(randint)
+choice = our_decorator(choice)
 
-foo("Hi")
-'''
-
-def decor(func):
-    def decor_wrapper(x):
-        print("before function called " + func.__name__)
-        func(x)
-        print("After calling " + func.__name__)
-    return decor_wrapper
-
-@decor
-def foo(x):
-    print("foo is called with " + str(x))
-
-foo("python")
-
-
-
+random()
+randint(3, 8)
+choice([4, 5, 6])
