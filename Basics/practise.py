@@ -1,17 +1,29 @@
-from random import random, randint, choice
+def call_counter(func):
+    def helper(*args, **kwargs):
+        helper.calls += 1
+        return func(*args, **kwargs)
 
-def our_decorator(func):
-    def function_wrapper(*args, **kwargs):
-        print("Before calling " + func.__name__)
-        res = func(*args, **kwargs)
-        print(res)
-        print("After calling " + func.__name__)
-    return function_wrapper
+    helper.calls = 0
 
-random = our_decorator(random)
-randint = our_decorator(randint)
-choice = our_decorator(choice)
+    return helper
 
-random()
-randint(3, 8)
-choice([4, 5, 6])
+
+@call_counter
+def succ(x):
+    return x + 1
+
+
+@call_counter
+def mul1(x, y=1):
+    return x * y + 1
+
+
+print(succ.calls)
+for i in range(10):
+    succ(i)
+mul1(3, 4)
+mul1(4)
+mul1(y=3, x=2)
+
+print(succ.calls)
+print(mul1.calls)
