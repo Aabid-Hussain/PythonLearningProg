@@ -1,0 +1,10 @@
+(lp0
+S'Paris'
+p1
+aS'Dijon'
+p2
+aS'Lyon'
+p3
+aS'Strasbourg'
+p4
+a.
