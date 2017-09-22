@@ -1,17 +1,21 @@
-import pickle
+def decorate_foo(function):
+    def wapper(value):
+        print("Before calling "+ function.__name__)
+        function(value)
+        print("After calling "+ function.__name__)
 
+    return wapper
 
-lines = open("E:\ME\cities_and_times.txt").readlines()
+@decorate_foo
+def fool_pool(x):
+    print("Hi, foo has been called with " + str(x))
 
-lines.sort()
+print("We call foo before decoration:")
+fool_pool("Hi")
 
-cities = []
+print("We now decorate foo with f:")
+#foo = decorate_foo(fool_pool)
+fool_pool(007)
 
-for line in lines:
-    *c, day, time = line.split()
-    hours, minutes = time.split(":")
-    cities.append((" ".join(c), day,
-                   (int(hours), int(minutes))))
-
-fh = open("E:\ME\cities_and_times.pkl",'wb')
-pickle.dump(cities, fh)
+# print("We call foo after decoration:")
+# fool_pool(42)
