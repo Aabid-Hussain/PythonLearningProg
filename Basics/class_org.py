@@ -33,7 +33,7 @@ class Shape:
 
 class Square(Shape):
     def __init__(self, side):
-        super().__init__(width = 1, height = 1)
+        Shape.__init__(self, width = 1, height = 1)
         self.side = side
 
     def getArea(self):
@@ -41,7 +41,7 @@ class Square(Shape):
 
 class Rectangle(Shape):
     def __init__(self, length = 1 , base = 1):
-        super().__init__(length, base)
+        Shape.__init__(self,width=1, height=1)
         self.length = length
         self.base = base
 
