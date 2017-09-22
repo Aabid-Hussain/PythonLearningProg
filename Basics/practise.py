@@ -1,23 +1,20 @@
-def decorate_foo(function):
-    def wapper(value):
-        print("Before calling "+ function.__name__)
-        function(value)
-        print("After calling "+ function.__name__)
+'''Before calling succ
+11
+After calling succ
+'''
 
-    return wapper
+def dec_fun(func):
+    def wrapper(x):
+        print("Before calling "+ func.__name__)
+        
+        print(func(x))
 
-@decorate_foo
-def fool_pool(x):
-    print("Hi, foo has been called with " + str(x))
+        print("After calling "+ func.__name__)
 
-print("We call foo before decoration:")
-fool_pool("Hi")
+    return wrapper
 
-print("We now decorate foo with f:")
-#foo = decorate_foo(fool_pool)
-fool_pool(007)
+@dec_fun
+def add_fun(x):
+    return x + 1
 
-# print("We call foo after decoration:")
-# fool_pool(42)
-
-#fun = decorator_fun(fun) -easy notation
+add_fun(10)
