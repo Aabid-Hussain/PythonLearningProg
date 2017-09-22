@@ -19,3 +19,5 @@ fool_pool(007)
 
 # print("We call foo after decoration:")
 # fool_pool(42)
+
+#fun = decorator_fun(fun) -easy notation
