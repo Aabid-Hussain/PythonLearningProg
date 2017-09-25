@@ -6,7 +6,7 @@ After calling succ
 def dec_fun(func):
     def wrapper(x):
         print("Before calling "+ func.__name__)
-        
+
         print(func(x))
 
         print("After calling "+ func.__name__)
