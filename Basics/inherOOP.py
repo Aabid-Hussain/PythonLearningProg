@@ -37,7 +37,7 @@ class Developer(Employee):
     raisedAmt = 1.50
 
     def __init__(self,first, last, pay, prog_lang):
-        super().__init__(first,last,pay)
+        Employee.__init__(self, first,last,pay)
         #Employee.__init__(self, first, last, pay) both are correct
         self.prog_lang = prog_lang
 
@@ -45,7 +45,8 @@ class Developer(Employee):
 class Manager(Employee):
 
     def __init__(self,first,last,pay,employees =None):
-        super().__init__(first,last,pay)
+        #super().__init__(first,last,pay)
+        Employee.__init__(self, first, last, pay)
 
         if employees is None:
             self.employees = []
