@@ -83,16 +83,16 @@ mgr_1.print_emp()
 
 
 
-# print(dev_1.Email)
-# print(dev_1.prog_lang)
-#
+print(dev_1.Email)
+print(dev_1.prog_lang)
+
 
 # print(help(Developer))
 
-# print(dev_1.pay)
-# dev_1.get_raised_amt()
-# print(dev_1.pay)
-# print(dev_2.Email)
+print(dev_1.pay)
+dev_1.get_raised_amt()
+print(dev_1.pay)
+print(dev_2.Email)
 
 
 
