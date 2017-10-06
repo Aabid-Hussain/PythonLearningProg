@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod
+
 class Book(object, metaclass=ABCMeta):
     def __init__(self, title, author):
         self.title = title
@@ -9,7 +10,7 @@ class Book(object, metaclass=ABCMeta):
 
 class MyBook(Book):
     def __init__(self, title, author, price):
-        Book.__init__(self, title, author)
+        super().__init__(title, author)
         self.price = price
 
     def display(self):
@@ -17,10 +18,10 @@ class MyBook(Book):
         print("Author: {}".format(self.author))
         print("Price: {}".format(self.price))
 
-
-tittle = input()
+title = input()
 author = input()
-price = int(input())
-new_novel = MyBook(tittle, author, price)
-new_novel.display()
-assert issubclass(MyBook, Book)
+price = input()
+
+s = MyBook(title, author, price)
+s.display()
+

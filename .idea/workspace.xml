@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="Square problem is solved.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HackerRank/13_AbstractClasses.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HackerRank/Day14_Scope.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HackerRank/13_AbstractClasses.py" afterPath="$PROJECT_DIR$/HackerRank/13_AbstractClasses.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="13_AbstractClasses.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="13_AbstractClasses.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HackerRank/13_AbstractClasses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="654">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day14_Scope.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HackerRank/Day14_Scope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -77,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OOP/class1" />
         <option value="$PROJECT_DIR$/OOP/matrix.py" />
         <option value="$PROJECT_DIR$/OOP/character.py" />
         <option value="$PROJECT_DIR$/OOP/main.py" />
@@ -128,10 +138,11 @@
         <option value="$PROJECT_DIR$/HackerRank/2D.py" />
         <option value="$PROJECT_DIR$/HackerRank/Day12_Inheritance.py" />
         <option value="$PROJECT_DIR$/HackerRank/13_AbstractClasses.py" />
+        <option value="$PROJECT_DIR$/HackerRank/Day14_Scope.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-269" />
     <option name="y" value="-8" />
     <option name="width" value="1598" />
@@ -201,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13_AbstractClasses">
+  <component name="RunManager" selected="Python.Day14_Scope">
     <configuration name="13_AbstractClasses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,19 +264,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Decorators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Day14_Scope" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Basics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Basics/Decorators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/Day14_Scope.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -455,18 +466,18 @@
       <item index="0" class="java.lang.String" itemvalue="Python.Reg_Prac" />
       <item index="1" class="java.lang.String" itemvalue="MaxCompute SQL.main.py" />
       <item index="2" class="java.lang.String" itemvalue="Python.practise" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Decorators" />
-      <item index="4" class="java.lang.String" itemvalue="Python.2D" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Day12_Inheritance" />
-      <item index="6" class="java.lang.String" itemvalue="Python.13_AbstractClasses" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2D" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Day12_Inheritance" />
+      <item index="5" class="java.lang.String" itemvalue="Python.13_AbstractClasses" />
+      <item index="6" class="java.lang.String" itemvalue="Python.Day14_Scope" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.13_AbstractClasses" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Day12_Inheritance" />
-        <item index="2" class="java.lang.String" itemvalue="Python.2D" />
-        <item index="3" class="java.lang.String" itemvalue="Python.practise" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Decorators" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Day14_Scope" />
+        <item index="1" class="java.lang.String" itemvalue="Python.13_AbstractClasses" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Day12_Inheritance" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2D" />
+        <item index="4" class="java.lang.String" itemvalue="Python.practise" />
       </list>
     </recent_temporary>
   </component>
@@ -561,7 +572,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -672,13 +683,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HackerRank/list_challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/PlusMinus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -1020,8 +1024,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/13_AbstractClasses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="654">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HackerRank/Day14_Scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
