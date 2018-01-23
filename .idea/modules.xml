@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Automation_Openstack/.idea/Automation_Openstack.iml" filepath="$USER_HOME$/Automation_Openstack/.idea/Automation_Openstack.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonLearningProg.iml" filepath="$PROJECT_DIR$/.idea/PythonLearningProg.iml" />
     </modules>
   </component>
