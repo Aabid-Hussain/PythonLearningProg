@@ -33,7 +33,7 @@ for dev in devices.keys():
 
     new_connection.send("ps -aux \n")
 
-    output = clear_buffer(new_connection)
+    output += clear_buffer(new_connection)
 
 
     with open(output_file, 'wb') as fob:
