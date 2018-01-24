@@ -5,8 +5,8 @@ from pexpect import pxssh
 
 devices = {
 
-    'server-1':{'prompt':'[stack@localhost ~]$', 'ip':'192.168.182.101'},
-    'server-2':{'prompt':'iosv-2#', 'ip':'192.168.195.182'},
+    'server-1': {'prompt': '[stack@localhost ~]$', 'ip': '192.168.182.101'},
+    'server-2': {'prompt': 'iosv-2#', 'ip': '192.168.195.182'},
 
     }
 
