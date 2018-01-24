@@ -1,0 +1,67 @@
+ls -ltr
+total 0
+[stack@localhost ~]$ ps -aux | grep networ
+stack    15732  0.0  0.0 112660   976 pts/0    S+   00:46   0:00 grep --color=auto network
+[stack@localhost ~]$ compgen -u
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+ftp
+nobody
+systemd-network
+dbus
+polkitd
+postfix
+chrony
+sshd
+stack
+puppet
+gnocchi
+memcached
+glance
+nagios
+apache
+radvd
+neutron
+mongodb
+ceilometer
+redis
+saslauth
+tss
+mysql
+epmd
+rabbitmq
+cinder
+nova
+nrpe
+swift
+aodh
+keystone
+rpc
+qemu
+rpcuser
+nfsnobody
+unbound
+setroubleshoot
+libstoragemgmt
+usbmuxd
+rtkit
+colord
+abrt
+geoclue
+sssd
+ntp
+pulse
+gdm
+gnome-initial-setup
+tcpdump
+avahi
+[stack@localhost ~]$

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b103d9-ab08-46cf-91a9-3dc2671c5e36" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/57Challenge/chal_4.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/57Challenge/dev_output.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/57Challenge/server-1_output.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/57Challenge/3.py" afterPath="$PROJECT_DIR$/57Challenge/3.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,36 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SSHAutomation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Automation_Openstack/ScriptsDir/SSHAutomation.py">
+      <file leaf-file-name="chal_4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/57Challenge/chal_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+            <state relative-caret-position="528">
+              <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
-                <element signature="e#54#65#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2_challenge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/57Challenge/2_challenge.py">
+      <file leaf-file-name="dev_output.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/57Challenge/dev_output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="-8688">
+              <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/57Challenge/3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basics/tail_recursion.py" />
         <option value="$PROJECT_DIR$/Challenge/Inher_New.py" />
         <option value="$PROJECT_DIR$/pangram.py" />
         <option value="$PROJECT_DIR$/stringWeight.py" />
@@ -142,6 +131,7 @@
         <option value="$USER_HOME$/Automation_Openstack/ScriptsDir/SSHAutomation.py" />
         <option value="$PROJECT_DIR$/57Challenge/2_challenge.py" />
         <option value="$PROJECT_DIR$/57Challenge/3.py" />
+        <option value="$PROJECT_DIR$/57Challenge/chal_4.py" />
       </list>
     </option>
   </component>
@@ -215,28 +205,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3">
+  <component name="RunManager" selected="Python.chal_4">
     <configuration name="main.py" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
       <odps_target_file />
       <odps_output_dir>C:\Users\v-mohamh\AppData\Local\Temp\</odps_output_dir>
-    </configuration>
-    <configuration name="13_AbstractClasses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HackerRank" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonLearningProg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HackerRank/13_AbstractClasses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="1_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,6 +295,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearningProg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reg_Prac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="chal_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/57Challenge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonLearningProg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/57Challenge/chal_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,19 +460,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Reg_Prac" />
-      <item index="1" class="java.lang.String" itemvalue="Python.13_AbstractClasses" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Day14_Scope" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Rangoli" />
-      <item index="4" class="java.lang.String" itemvalue="Python.1_challenge" />
-      <item index="5" class="java.lang.String" itemvalue="Python.3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Day14_Scope" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Rangoli" />
+      <item index="3" class="java.lang.String" itemvalue="Python.1_challenge" />
+      <item index="4" class="java.lang.String" itemvalue="Python.3" />
+      <item index="5" class="java.lang.String" itemvalue="Python.chal_4" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1_challenge" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Rangoli" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Day14_Scope" />
-        <item index="4" class="java.lang.String" itemvalue="Python.13_AbstractClasses" />
+        <item index="0" class="java.lang.String" itemvalue="Python.chal_4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1_challenge" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Rangoli" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Day14_Scope" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +553,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516772676755</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="python-network-prog-2">
+      <created>1516772981009</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516772981009</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -611,7 +608,7 @@
     <frame x="1669" y="50" width="1282" height="1036" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15964344" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20340356" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -671,6 +668,16 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.configurationType" implementationName="OdpsQLRunnerConfigurationType" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -726,20 +733,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HackerRank/Looping_Problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HackerRank/classVsInstance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HackerRank/Finding the percentage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -1051,12 +1044,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Automation_Openstack/ScriptsDir/SSHAutomation.py">
+    <entry file="file://$PROJECT_DIR$/57Challenge/3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+        <state relative-caret-position="288">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="62" />
           <folding>
-            <element signature="e#54#65#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1069,13 +1062,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/57Challenge/3.py">
+    <entry file="file://$USER_HOME$/Automation_Openstack/ScriptsDir/SSHAutomation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="2448">
+          <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#54#65#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/57Challenge/chal_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/57Challenge/dev_output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8688">
+          <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>

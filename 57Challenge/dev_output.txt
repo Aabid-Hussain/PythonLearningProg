@@ -1,0 +1,452 @@
+ps -aux 
+ls -ltr
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 194180  5384 ?        Ss   Jan20   0:39 /usr/lib/system
+root         2  0.0  0.0      0     0 ?        S    Jan20   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jan20   0:11 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Jan20   0:00 [migration/0]
+root         8  0.0  0.0      0     0 ?        S    Jan20   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Jan20   3:32 [rcu_sched]
+root        10  0.0  0.0      0     0 ?        S    Jan20   0:01 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Jan20   0:01 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    Jan20   0:01 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    Jan20   0:09 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    Jan20   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    Jan20   0:00 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    Jan20   0:09 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    Jan20   0:00 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    Jan20   0:01 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    Jan20   0:10 [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/3:0H]
+root        27  0.0  0.0      0     0 ?        S    Jan20   0:00 [kdevtmpfs]
+root        28  0.0  0.0      0     0 ?        S<   Jan20   0:00 [netns]
+root        29  0.0  0.0      0     0 ?        S    Jan20   0:00 [khungtaskd]
+root        30  0.0  0.0      0     0 ?        S<   Jan20   0:00 [writeback]
+root        31  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kintegrityd]
+root        32  0.0  0.0      0     0 ?        S<   Jan20   0:00 [bioset]
+root        33  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kblockd]
+root        34  0.0  0.0      0     0 ?        S<   Jan20   0:00 [md]
+root        43  0.0  0.0      0     0 ?        S    Jan20   0:13 [kswapd0]
+root        44  0.0  0.0      0     0 ?        SN   Jan20   0:00 [ksmd]
+root        45  0.0  0.0      0     0 ?        SN   Jan20   0:00 [khugepaged]
+root        46  0.0  0.0      0     0 ?        S<   Jan20   0:00 [crypto]
+root        54  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kthrotld]
+root        57  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kmpath_rdacd]
+root        58  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kpsmoused]
+root        60  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ipv6_addrconf]
+root        79  0.0  0.0      0     0 ?        S<   Jan20   0:00 [deferwq]
+root       113  0.0  0.0      0     0 ?        S    Jan20   0:00 [kauditd]
+root       303  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ata_sff]
+root       310  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_0]
+root       311  0.0  0.0      0     0 ?        S<   Jan20   0:00 [scsi_tmf_0]
+root       312  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_1]
+root       313  0.0  0.0      0     0 ?        S<   Jan20   0:00 [scsi_tmf_1]
+root       314  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_2]
+root       315  0.0  0.0      0     0 ?        S<   Jan20   0:00 [scsi_tmf_2]
+root       316  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_3]
+root       317  0.0  0.0      0     0 ?        S<   Jan20   0:00 [scsi_tmf_3]
+root       318  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_4]
+root       319  0.0  0.0      0     0 ?        S<   Jan20   0:00 [scsi_tmf_4]
+root       320  0.0  0.0      0     0 ?        S    Jan20   0:00 [scsi_eh_5]
+root       321  0.0  0.0      0     0 ?        S<   Jan20   0:00 [scsi_tmf_5]
+root       333  0.0  0.0      0     0 ?        S    Jan20   0:00 [i915/signal:0]
+root       334  0.0  0.0      0     0 ?        S    Jan20   0:00 [i915/signal:1]
+root       335  0.0  0.0      0     0 ?        S    Jan20   0:00 [i915/signal:2]
+root       336  0.0  0.0      0     0 ?        S    Jan20   0:00 [i915/signal:4]
+root       349  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/1:1H]
+root       350  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/2:1H]
+root       351  0.0  0.0      0     0 ?        S<   Jan20   0:30 [kworker/3:1H]
+root       353  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/0:1H]
+root       416  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kdmflush]
+root       417  0.0  0.0      0     0 ?        S<   Jan20   0:00 [bioset]
+root       428  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kdmflush]
+root       429  0.0  0.0      0     0 ?        S<   Jan20   0:00 [bioset]
+root       442  0.0  0.0      0     0 ?        S<   Jan20   0:00 [bioset]
+root       443  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfsalloc]
+root       444  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs_mru_cache]
+root       445  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-buf/dm-0]
+root       446  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-data/dm-0]
+root       447  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-conv/dm-0]
+root       448  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-cil/dm-0]
+root       449  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-reclaim/dm
+root       450  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-log/dm-0]
+root       451  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-eofblocks/
+root       452  0.0  0.0      0     0 ?        S    Jan20   0:40 [xfsaild/dm-0]
+root       521  0.0  0.2  54520 19180 ?        Ss   Jan20   1:12 /usr/lib/system
+root       545  0.0  0.0 129552  1016 ?        Ss   Jan20   0:05 /usr/sbin/lvmet
+root       575  0.0  0.0      0     0 ?        S<   Jan20   0:00 [edac-poller]
+root       578  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ktpacpid]
+root       580  0.0  0.0      0     0 ?        S    Jan20   0:00 [irq/29-mei_me]
+root       583  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kmemstick]
+root       601  0.0  0.0      0     0 ?        S<   Jan20   0:00 [cfg80211]
+root       608  0.0  0.0      0     0 ?        S    Jan20   0:08 [irq/32-iwlwifi
+root       631  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-buf/sda1]
+root       636  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-data/sda1]
+root       638  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kworker/u17:0]
+root       639  0.0  0.0      0     0 ?        S<   Jan20   0:00 [hci0]
+root       640  0.0  0.0      0     0 ?        S<   Jan20   0:00 [hci0]
+root       643  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-conv/sda1]
+root       644  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-cil/sda1]
+root       645  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-reclaim/sd
+root       646  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-log/sda1]
+root       647  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-eofblocks/
+root       650  0.0  0.0      0     0 ?        S    Jan20   0:00 [xfsaild/sda1]
+root       671  0.0  0.0      0     0 ?        S<   Jan20   0:00 [kdmflush]
+root       672  0.0  0.0      0     0 ?        S<   Jan20   0:00 [bioset]
+root       690  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-buf/dm-2]
+root       691  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-data/dm-2]
+root       692  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-conv/dm-2]
+root       693  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-cil/dm-2]
+root       694  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-reclaim/dm
+root       695  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-log/dm-2]
+root       696  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xfs-eofblocks/
+root       697  0.0  0.0      0     0 ?        S    Jan20   0:00 [xfsaild/dm-2]
+root       731  0.0  0.0  55452   124 ?        S<sl Jan20   0:03 /sbin/auditd
+root       756  0.0  0.0  24736  1592 ?        Ss   Jan20   0:05 /usr/lib/system
+polkitd    757  0.0  0.1 536120 10096 ?        Ssl  Jan20   0:03 /usr/lib/polkit
+dbus       759  0.0  0.0 100188  2924 ?        Ssl  Jan20   1:20 /bin/dbus-daemo
+chrony     769  0.0  0.0 115640   608 ?        S    Jan20   0:01 /usr/sbin/chron
+root       778  0.0  0.0  21476   380 ?        Ss   Jan20   0:12 /usr/sbin/irqba
+root       798  0.0  0.0 892648  5504 ?        Ssl  Jan20   2:03 /usr/sbin/Netwo
+root      1053  0.0  0.1 562396  8956 ?        Ssl  Jan20   0:21 /usr/bin/python
+root      1414  0.0  0.0  89544   304 ?        Ss   Jan20   0:03 /usr/libexec/po
+postfix   1443  0.0  0.0  89824  1312 ?        S    Jan20   0:01 qmgr -l -t unix
+memcach+  4577  0.0  0.0 337440  4308 ?        Ssl  Jan20   0:14 /usr/bin/memcac
+root      6979  0.0  0.1 400372 13440 ?        Ssl  Jan20   0:33 /usr/sbin/rsysl
+root      7795  0.0  0.0      0     0 ?        S<   Jan23   0:00 [kdmflush]
+root      7796  0.0  0.0      0     0 ?        S<   Jan23   0:00 [bioset]
+root      7845  0.0  0.3 269324 26372 ?        S    Jan23   0:00 /usr/bin/python
+nrpe      7919  0.0  0.0  44820   724 ?        Ss   Jan20   0:00 /usr/sbin/nrpe 
+root      7926  0.0  0.0  31464   516 ?        Ss   Jan23   0:01 /usr/sbin/iscsi
+root      7927  0.0  0.1  42488 13872 ?        S<Ls Jan23   0:00 /usr/sbin/iscsi
+root      7930  0.0  0.0      0     0 ?        S<   Jan23   0:00 [iscsi_eh]
+root      7978  0.0  0.0  27116   632 ?        Ss   Jan20   0:00 /usr/sbin/xinet
+redis     8015  0.0  0.0 142916  5240 ?        Ssl  Jan20   5:13 /usr/bin/redis-
+root      8090  0.0  0.0      0     0 ?        S<   Jan23   0:00 [sysfsd]
+root      8386  0.0  0.0      0     0 ?        S<   Jan23   0:00 [kdmflush]
+root      8387  0.0  0.0      0     0 ?        S<   Jan23   0:00 [bioset]
+mysql     8522  0.2  2.8 2680088 217444 ?      Ssl  Jan20  13:45 /usr/libexec/my
+nagios    8776  0.0  0.0 145380  1384 ?        Ssl  Jan20   1:26 /usr/sbin/nagio
+root      8820  0.0  0.0      0     0 ?        S<   Jan20   0:00 [loop0]
+mongodb   8902  0.2  0.2 559244 19800 ?        Sl   Jan20  12:05 /usr/bin/mongod
+root      8906  0.0  0.0      0     0 ?        S<   Jan20   0:00 [dio/dm-0]
+root      8936  0.0  0.0      0     0 ?        S<   Jan23   0:00 [kdmflush]
+root      8937  0.0  0.0      0     0 ?        S<   Jan23   0:00 [bioset]
+rabbitmq  8948  0.2  2.9 2640172 223192 ?      Ssl  Jan20  13:36 /usr/lib64/erla
+epmd      9041  0.0  0.0  44600   744 ?        Ss   Jan20   0:02 /usr/bin/epmd -
+rabbitmq  9153  0.0  0.0  11544   504 ?        Ss   Jan20   0:00 inet_gethost 4
+rabbitmq  9154  0.0  0.0  13668   592 ?        S    Jan20   0:00 inet_gethost 4
+root      9734  0.0  0.0      0     0 ?        S<   Jan23   0:00 [kdmflush]
+root      9735  0.0  0.0      0     0 ?        S<   Jan23   0:00 [bioset]
+root      9773  0.0  0.0      0     0 ?        S<   Jan20   0:00 [loop1]
+root      9780  0.0  0.0      0     0 ?        S    Jan20   0:00 [jbd2/loop1-8]
+root      9781  0.0  0.0      0     0 ?        S<   Jan20   0:00 [ext4-rsv-conve
+root      9867  0.0  0.0      0     0 ?        S    Jan23   0:02 [kworker/1:2]
+aodh      9933  0.3  0.0 333456  6168 ?        Ss   Jan20  20:18 /usr/bin/python
+aodh      9964  0.3  0.0 333452  3732 ?        Ss   Jan20  20:17 /usr/bin/python
+aodh     10004  0.3  0.1 333456 13656 ?        Ss   Jan20  20:13 /usr/bin/python
+aodh     10070  0.3  0.2 732568 16752 ?        Sl   Jan20  20:16 aodh-listener -
+aodh     10077  0.0  0.1 579172 12804 ?        Sl   Jan20   0:03 aodh-notifier -
+aodh     10079  0.5  1.4 1472900 110436 ?      Sl   Jan20  30:26 aodh-evaluator 
+gnocchi  10122  0.1  1.0 589864 80112 ?        Ssl  Jan20   5:38 /usr/bin/python
+gnocchi  10162  0.3  0.2 440068 21048 ?        Ssl  Jan20  21:23 /usr/bin/python
+gnocchi  10270  0.1  0.2 571140 19368 ?        Sl   Jan20   6:53 /usr/bin/python
+gnocchi  10274  0.0  0.4 620624 34428 ?        Sl   Jan20   3:27 gnocchi-metricd
+gnocchi  10276  0.0  0.4 618356 36808 ?        Sl   Jan20   0:06 gnocchi-metricd
+gnocchi  10277  0.0  0.4 618356 36788 ?        Sl   Jan20   0:06 gnocchi-metricd
+gnocchi  10278  0.0  0.4 618372 38068 ?        Sl   Jan20   3:24 gnocchi-metricd
+gnocchi  10280  0.0  0.9 618368 70860 ?        Sl   Jan20   3:27 gnocchi-metricd
+nova     10632  0.0  1.0 389968 82148 ?        Ss   Jan20   4:13 /usr/bin/python
+nova     10682  0.0  0.0 413036  3992 ?        Ss   Jan20   2:19 /usr/bin/python
+nova     10711  0.0  1.0 388548 80652 ?        Ss   Jan20   4:14 /usr/bin/python
+nova     10761  0.8  0.3 455980 24960 ?        Ss   Jan20  46:36 /usr/bin/python
+nova     10784  0.0  2.0 525624 158260 ?       S    Jan20   0:13 /usr/bin/python
+nova     10785  0.0  2.1 532956 165740 ?       S    Jan20   0:21 /usr/bin/python
+nova     10786  0.0  2.0 529248 161080 ?       S    Jan20   0:21 /usr/bin/python
+nova     10787  0.0  1.9 493384 150396 ?       S    Jan20   1:14 /usr/bin/python
+nova     10791  0.0  0.2 462884 20688 ?        S    Jan20   0:00 /usr/bin/python
+nova     10792  0.0  0.2 462884 20700 ?        S    Jan20   0:00 /usr/bin/python
+nova     10793  0.0  0.2 462884 20680 ?        S    Jan20   0:00 /usr/bin/python
+nova     10794  0.0  0.2 462884 20708 ?        S    Jan20   0:00 /usr/bin/python
+nova     10827  0.0  1.0 391188 83348 ?        Ss   Jan20   5:16 /usr/bin/python
+nova     10877  0.8  0.2 380424 16400 ?        Ss   Jan20  45:39 /usr/bin/python
+nova     10896  0.1  1.3 407932 100472 ?       S    Jan20   8:32 /usr/bin/python
+nova     10897  0.1  1.2 405060 97680 ?        S    Jan20   8:22 /usr/bin/python
+nova     10898  0.1  1.2 406580 99064 ?        S    Jan20   8:20 /usr/bin/python
+nova     10899  0.1  1.2 403548 95676 ?        S    Jan20   8:26 /usr/bin/python
+cinder   10981  0.8  0.1 617184  7948 ?        Ss   Jan20  47:31 /usr/bin/python
+cinder   11020  0.0  1.0 440716 79024 ?        Ss   Jan20   3:40 /usr/bin/python
+cinder   11051  0.8  0.3 600828 25124 ?        Ss   Jan20  46:31 /usr/bin/python
+cinder   11086  0.0  1.4 617376 109212 ?       Ss   Jan20   5:23 /usr/bin/python
+root     11132  0.0  0.0      0     0 ?        S<   Jan20   0:00 [target_complet
+root     11133  0.0  0.0      0     0 ?        S<   Jan20   0:00 [tmr-rd_mcp]
+root     11139  0.0  0.0      0     0 ?        S<   Jan20   0:00 [xcopy_wq]
+cinder   11193  0.0  0.6 622944 51104 ?        S    Jan20   0:00 /usr/bin/python
+cinder   11194  0.0  1.7 641736 131472 ?       S    Jan20   0:15 /usr/bin/python
+cinder   11195  0.0  0.4 624488 38336 ?        S    Jan20   0:31 /usr/bin/python
+cinder   11196  0.0  1.1 625852 92244 ?        S    Jan20   0:01 /usr/bin/python
+cinder   11214  0.1  1.4 620884 111068 ?       S    Jan20   5:37 /usr/bin/python
+ceilome+ 11226  0.3  0.1 330488 12040 ?        Ss   Jan20  19:51 /usr/bin/python
+ceilome+ 11259  0.3  0.0 333812  3764 ?        Ss   Jan20  19:52 /usr/bin/python
+root     11266  0.0  0.0 113372  1300 ?        S    Jan20   0:00 /sbin/dhclient 
+ceilome+ 11295  0.3  0.1 332800 11696 ?        Ss   Jan20  19:58 /usr/bin/python
+root     11370  0.0  0.0 113372   924 ?        Ss   Jan20   0:02 dhclient
+ceilome+ 11396  2.8  0.7 2935188 55556 ?       Sl   Jan20 161:23 ceilometer-agen
+ceilome+ 11406  4.5  0.6 3495384 49952 ?       Sl   Jan20 256:18 ceilometer-coll
+ceilome+ 11411  0.3  0.6 870352 51964 ?        Sl   Jan20  18:14 ceilometer-poll
+root     11491  0.0  0.0 126264  1352 ?        Ss   Jan20   0:03 /usr/sbin/crond
+root     11504  0.0  0.0 240328  7500 ?        Ss   Jan20   0:17 /usr/sbin/httpd
+root     11559  0.0  0.0  47156  1940 ?        Ss   Jan20   0:00 /usr/lib/system
+root     12245  0.0  0.0 105996  2320 ?        Ss   Jan20   0:00 /usr/sbin/sshd 
+root     12511  0.0  0.0  54700  3236 ?        Ss   Jan20   0:22 /usr/sbin/wpa_s
+root     12659  0.0  0.0      0     0 ?        S    00:22   0:00 [kworker/u16:0]
+swift    13068  0.0  0.1 262332  8428 ?        Ss   Jan20   0:16 /usr/bin/python
+swift    13097  0.0  0.0 255512  5812 ?        Ss   Jan20   0:00 /usr/bin/python
+swift    13141  0.0  0.1 246208  7764 ?        Ss   Jan20   0:15 /usr/bin/python
+swift    13181  0.0  0.0 244276  7404 ?        Ss   Jan20   0:00 /usr/bin/python
+swift    13224  0.8  0.0 268068  4252 ?        Ss   Jan20  45:20 /usr/bin/python
+swift    13263  0.8  0.0 258792  5680 ?        Ss   Jan20  46:23 /usr/bin/python
+swift    13299  0.0  0.0 269548  1528 ?        S    Jan20   0:01 /usr/bin/python
+swift    13303  0.8  0.0 257752  4228 ?        Ss   Jan20  46:08 /usr/bin/python
+swift    13333  0.0  0.1 260620  8056 ?        S    Jan20   0:06 /usr/bin/python
+swift    13359  0.0  0.0 259416  1444 ?        S    Jan20   0:01 /usr/bin/python
+swift    13360  0.0  0.1 260436 10084 ?        Ss   Jan20   0:30 /usr/bin/python
+swift    13389  0.0  0.1 260528 11364 ?        Ss   Jan20   0:12 /usr/bin/python
+swift    13428  0.0  0.1 259624  8068 ?        Ss   Jan20   0:19 /usr/bin/python
+swift    13464  0.0  0.0 244300  7324 ?        Ss   Jan20   0:00 /usr/bin/python
+glance   14416  0.0  0.1 353044 13984 ?        Ss   Jan20   0:01 /usr/bin/python
+glance   14456  0.0  0.7 353044 56636 ?        S    Jan20   0:00 /usr/bin/python
+glance   14457  0.0  0.6 353044 53224 ?        S    Jan20   0:00 /usr/bin/python
+glance   14458  0.0  0.6 353044 52436 ?        S    Jan20   0:00 /usr/bin/python
+glance   14459  0.0  0.6 353044 50824 ?        S    Jan20   0:00 /usr/bin/python
+glance   14503  0.7  0.3 397248 26856 ?        Ss   Jan20  43:57 /usr/bin/python
+glance   14550  0.0  0.7 410840 58888 ?        S    Jan20   0:33 /usr/bin/python
+glance   14551  0.0  1.1 415136 85992 ?        S    Jan20   0:45 /usr/bin/python
+glance   14552  0.0  0.7 403868 57408 ?        S    Jan20   0:07 /usr/bin/python
+glance   14553  0.0  0.7 405784 60328 ?        S    Jan20   0:08 /usr/bin/python
+swift    14624  0.0  0.1 258976  9136 ?        Ss   Jan20   0:02 /usr/bin/python
+swift    14758  0.0  0.1 245924  9000 ?        Ss   Jan20   0:01 /usr/bin/python
+neutron  14924  0.0  0.3 425832 27608 ?        Ss   Jan20   0:40 /usr/bin/python
+neutron  14939  0.0  1.4 452312 108312 ?       S    Jan20   1:00 /usr/bin/python
+neutron  14940  0.0  1.3 451344 107644 ?       S    Jan20   0:54 /usr/bin/python
+neutron  14941  0.0  1.3 452672 105268 ?       S    Jan20   1:00 /usr/bin/python
+neutron  14942  0.0  1.3 448980 104008 ?       S    Jan20   0:41 /usr/bin/python
+neutron  14943  0.0  1.3 449256 105332 ?       S    Jan20   4:48 /usr/bin/python
+neutron  14944  0.0  1.3 449620 105828 ?       S    Jan20   5:02 /usr/bin/python
+neutron  14945  0.0  1.3 449236 104156 ?       S    Jan20   4:53 /usr/bin/python
+neutron  14946  0.0  1.3 450300 106732 ?       S    Jan20   4:58 /usr/bin/python
+neutron  14947  0.0  1.1 429636 85724 ?        S    Jan20   2:29 /usr/bin/python
+neutron  14948  0.0  1.3 447756 103876 ?       S    Jan20   3:37 /usr/bin/python
+root     15093  0.0  0.0      0     0 ?        S    00:41   0:00 [kworker/u16:2]
+root     15118  0.0  0.0      0     0 ?        R    00:41   0:00 [kworker/3:2]
+root     15734  0.0  0.0      0     0 ?        S    00:46   0:00 [kworker/2:0]
+root     16022  0.0  0.0  54988  2608 ?        S<s  Jan20   0:44 ovsdb-server /e
+root     16063  0.1  0.7 426312 57756 ?        S<Lsl Jan20   6:43 ovs-vswitchd u
+neutron  16244  0.5  1.0 375912 80356 ?        Ss   Jan20  28:48 /usr/bin/python
+neutron  16274  0.0  0.7 350168 54456 ?        Ss   Jan20   1:54 /usr/bin/python
+neutron  16305  0.9  0.7 355584 59968 ?        Ss   Jan20  54:26 /usr/bin/python
+neutron  16345  0.0  0.7 355564 60200 ?        Ss   Jan20   4:27 /usr/bin/python
+neutron  16411  0.0  0.7 350428 54620 ?        Ss   Jan20   3:11 /usr/bin/python
+root     16457  0.0  0.0      0     0 ?        S    00:52   0:00 [kworker/0:0]
+root     16471  0.0  0.0 197644  1720 ?        S    Jan20   0:00 sudo neutron-ro
+root     16472  0.0  0.2 387356 18568 ?        Sl   Jan20   0:00 /usr/bin/python
+root     16477  0.0  0.0 197644  1720 ?        S    Jan20   0:00 sudo neutron-ro
+root     16478  0.0  0.2 600356 18504 ?        Sl   Jan20   0:00 /usr/bin/python
+neutron  16517  0.0  0.6 349200 51120 ?        S    Jan20   0:00 /usr/bin/python
+neutron  16518  0.0  0.6 349200 51120 ?        S    Jan20   0:00 /usr/bin/python
+neutron  16519  0.0  0.6 349200 51120 ?        S    Jan20   0:00 /usr/bin/python
+neutron  16520  0.0  0.6 349200 51120 ?        S    Jan20   0:00 /usr/bin/python
+root     16547  0.0  0.0 197644  1720 ?        S    Jan20   0:00 sudo neutron-ro
+root     16549  0.0  0.2 227012 17632 ?        S    Jan20   0:00 /usr/bin/python
+root     16559  0.0  0.0  54660  4524 ?        S    Jan20   0:00 /bin/ovsdb-clie
+root     16597  0.0  0.0      0     0 ?        S    00:53   0:00 [kworker/1:1]
+postfix  16611  0.0  0.0  92388  4140 ?        S    00:53   0:00 pickup -l -t un
+neutron  16707  0.0  0.6 329728 47232 ?        S    Jan20   0:00 /usr/bin/python
+root     17069  0.0  0.0      0     0 ?        S    00:57   0:00 [kworker/2:1]
+root     17260  0.0  0.0      0     0 ?        S    00:58   0:00 [kworker/0:1]
+root     17278  0.0  0.0      0     0 ?        S    00:58   0:00 [kworker/3:1]
+root     17649  0.0  0.0      0     0 ?        S    01:02   0:00 [kworker/u16:1]
+root     17879  0.0  0.0 341504  6500 ?        Sl   01:04   0:00 /usr/sbin/abrt-
+root     17907  0.0  0.0 206996  1772 ?        Ssl  Jan20   0:00 /usr/sbin/virtl
+root     17937  0.0  0.0      0     0 ?        S    01:04   0:00 [kworker/2:2]
+root     17984  0.0  0.0      0     0 ?        S    01:04   0:00 [kworker/3:0]
+swift    18015  0.2  0.0      0     0 ?        Z    01:05   0:00 [swift-object-a
+root     18039  0.0  0.0      0     0 ?        S    01:05   0:00 [kworker/0:2]
+root     18040  4.3  0.0 149928  5452 ?        Ss   01:05   0:00 sshd: stack [pr
+stack    18044  0.0  0.0 149928  2328 ?        D    01:05   0:00 sshd: stack@pts
+stack    18045  1.5  0.0 116836  3480 pts/0    Ss   01:05   0:00 -bash
+stack    18096  0.0  0.0 153148  1844 pts/0    R+   01:05   0:00 ps -aux
+nova     18385  0.2  1.9 2187552 148052 ?      Ssl  Jan20  11:31 /usr/bin/python
+ceilome+ 18464  0.3  0.6 332804 46324 ?        Ss   Jan20  20:10 /usr/bin/python
+ceilome+ 18515  0.1  0.7 795652 54068 ?        Sl   Jan20  10:20 ceilometer-poll
+aodh     19436  0.0  0.1 357200  8072 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+aodh     19437  0.0  0.1 357200  8128 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+aodh     19438  0.0  0.1 422744  8140 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+aodh     19439  0.0  0.1 357208  8072 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+ceilome+ 19440  0.0  0.1 422744  8120 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+gnocchi  19441  0.0  0.1 422744  8088 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+gnocchi  19442  0.0  0.1 357208  8136 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+gnocchi  19443  0.0  0.1 357208  8132 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+gnocchi  19444  0.0  0.1 357208  8120 ?        Sl   Jan21   0:06 /usr/sbin/httpd
+keystone 19445  0.0  1.2 702980 93344 ?        Sl   Jan21   0:58 keystone-admin 
+keystone 19446  0.0  1.2 768516 95344 ?        Sl   Jan21   0:59 keystone-admin 
+keystone 19447  0.0  1.2 702980 92572 ?        Sl   Jan21   0:57 keystone-admin 
+keystone 19448  0.0  1.2 768516 96936 ?        Sl   Jan21   0:57 keystone-admin 
+keystone 19449  0.0  1.1 636420 89576 ?        Sl   Jan21   1:01 keystone-main  
+keystone 19450  0.0  1.1 701948 88908 ?        Sl   Jan21   1:04 keystone-main  
+keystone 19451  0.0  1.1 701948 88964 ?        Sl   Jan21   0:59 keystone-main  
+keystone 19452  0.0  1.1 701948 89084 ?        Sl   Jan21   1:02 keystone-main  
+apache   19453  0.0  1.6 980384 127860 ?       Sl   Jan21   0:11 /usr/sbin/httpd
+apache   19454  0.0  1.5 914848 121588 ?       Sl   Jan21   0:11 /usr/sbin/httpd
+apache   19455  0.0  1.6 914848 124656 ?       Sl   Jan21   0:11 /usr/sbin/httpd
+apache   19456  0.0  0.1 242916  9528 ?        S    Jan21   0:01 /usr/sbin/httpd
+apache   19457  0.0  0.1 242916  9704 ?        S    Jan21   0:01 /usr/sbin/httpd
+apache   19458  0.0  0.1 242924  9504 ?        S    Jan21   0:01 /usr/sbin/httpd
+apache   19459  0.0  0.1 242908  9552 ?        S    Jan21   0:00 /usr/sbin/httpd
+apache   19460  0.0  0.1 242908  9748 ?        S    Jan21   0:00 /usr/sbin/httpd
+apache   19461  0.0  0.1 242908  9504 ?        S    Jan21   0:00 /usr/sbin/httpd
+apache   19462  0.0  0.1 242908  9564 ?        S    Jan21   0:00 /usr/sbin/httpd
+apache   19463  0.0  0.1 242908  9404 ?        S    Jan21   0:00 /usr/sbin/httpd
+root     20520  0.0  0.0  94384  1764 ?        Ss   Jan22   0:00 login -- root
+root     20530  0.0  0.0 118940  2632 tty1     Ss   Jan22   0:00 -bash
+nobody   22235  0.0  0.0  15608   624 ?        S    Jan22   0:00 dnsmasq --no-ho
+root     23731  0.0  0.1 1452400 9852 ?        Ssl  Jan22   0:32 /usr/sbin/libvi
+nobody   23796  0.0  0.0  15604   548 ?        S    Jan22   0:00 /usr/sbin/dnsma
+root     23797  0.0  0.0  15576   188 ?        S    Jan22   0:00 /usr/sbin/dnsma
+root     24802  0.0  0.0 197644  1732 ?        S    Jan22   0:00 sudo neutron-ro
+root     24803  0.0  0.2 452892 18676 ?        Sl   Jan22   0:00 /usr/bin/python
+root     24859  0.0  0.3 268248 25304 ?        S    Jan22   0:00 /usr/bin/python
+root     25462  0.0  0.0 200760  1732 tty1     S+   Jan22   0:00 sudo startx
+root     25463  0.0  0.0 113128   880 tty1     S+   Jan22   0:00 /bin/sh /bin/st
+root     25485  0.0  0.0  13972   560 tty1     S+   Jan22   0:00 xinit /etc/X11/
+root     25486  0.0  0.3 264360 24588 tty1     S<l  Jan22   0:04 /usr/bin/X :0 v
+root     25491  0.0  0.0 753152  3548 ?        Ssl  Jan22   0:00 /usr/libexec/gn
+root     25498  0.0  0.0  13976   348 ?        S    Jan22   0:00 dbus-launch --s
+root     25499  0.0  0.0  36088  2016 ?        Ssl  Jan22   0:00 /bin/dbus-daemo
+root     25569  0.0  0.0 387436  1636 ?        Sl   Jan22   0:00 /usr/libexec/im
+root     25573  0.0  0.0 386256  1428 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25578  0.0  0.0 415552   968 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25636  0.0  0.0  51332   608 ?        Ss   Jan22   0:00 /usr/bin/ssh-ag
+root     25647  0.0  0.0 344504  1388 ?        Sl   Jan22   0:00 /usr/libexec/at
+root     25652  0.0  0.0  34692  1232 ?        Sl   Jan22   0:00 /bin/dbus-daemo
+root     25655  0.0  0.0 205748  1240 ?        Sl   Jan22   0:00 /usr/libexec/at
+root     25669  0.0  0.0 315016  1340 ?        Sl   Jan22   0:00 /usr/bin/gnome-
+root     25680  0.0  1.0 1781724 78828 ?       Sl   Jan22   0:37 /usr/bin/gnome-
+root     25684  0.0  0.0 425988  2744 ?        Ssl  Jan22   0:02 /usr/libexec/up
+root     25709  0.0  0.0  23360   692 ?        S    Jan22   0:00 syndaemon -i 1.
+root     25713  0.0  0.0 450908  2544 ?        Sl   Jan22   0:00 ibus-daemon --x
+root     25718  0.0  0.0 373540  1232 ?        Sl   Jan22   0:00 /usr/libexec/ib
+root     25720  0.0  0.0 438192  2548 ?        Sl   Jan22   0:00 /usr/libexec/ib
+root     25728  0.0  0.0 892372  7560 ?        Sl   Jan22   0:00 /usr/libexec/gn
+root     25729  0.0  0.0 391996  2672 ?        Ssl  Jan22   0:03 /usr/libexec/ac
+root     25734  0.0  0.0 424528  2512 ?        Sl   Jan22   0:00 /usr/libexec/xd
+root     25741  0.0  0.1 1592300 8444 ?        Sl   Jan22   0:00 /usr/libexec/ev
+root     25749  0.0  0.0 474204  3380 ?        Sl   Jan22   0:11 /usr/libexec/mi
+root     25751  0.0  0.0 407300  3192 ?        Sl   Jan22   0:01 /usr/libexec/gv
+root     25756  0.0  0.0 893928  6828 ?        Sl   Jan22   0:00 /usr/libexec/go
+avahi    25758  0.0  0.0  30204  1468 ?        Ss   Jan22   0:01 avahi-daemon: r
+root     25761  0.0  0.0 443260  3412 ?        Ssl  Jan22   0:14 /usr/lib/udisks
+avahi    25765  0.0  0.0  30072   244 ?        S    Jan22   0:00 avahi-daemon: c
+root     25767  0.0  0.0 425956  2580 ?        Ssl  Jan22   0:00 /usr/sbin/Modem
+root     25780  0.0  0.0 518724  2664 ?        Sl   Jan22   0:04 /usr/libexec/go
+root     25789  0.0  0.0 185168  1088 ?        Sl   Jan22   0:00 /usr/libexec/dc
+root     25800  0.0  0.0 387236  1540 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25805  0.0  0.0 369176  1336 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25815  0.0  0.0 478156  1600 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25822  0.0  0.0 396304  1644 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25826  0.0  0.0 406640  3064 ?        Ssl  Jan22   0:01 /usr/libexec/pa
+root     25834  0.0  0.1 1224500 12776 ?       Sl   Jan22   0:39 /usr/libexec/gn
+root     25844  0.0  0.0 1279132 4448 ?        S<l  Jan22   0:01 /usr/bin/pulsea
+root     25852  0.0  0.0  42056  1224 ?        Ss   Jan22   0:00 /usr/libexec/bl
+root     25861  0.0  0.0      0     0 ?        S<   Jan22   0:00 [krfcommd]
+root     25862  0.0  0.1 938976 11288 ?        Sl   Jan22   0:00 nautilus-deskto
+colord   25864  0.0  0.0 410996  2624 ?        Ssl  Jan22   0:00 /usr/libexec/co
+root     25871  0.0  0.0 462384  1336 ?        Sl   Jan22   0:00 /usr/libexec/gv
+root     25877  0.0  0.0 597004  3004 ?        Sl   Jan22   0:00 /usr/libexec/gs
+root     25879  0.0  0.5 1099012 43120 ?       Sl   Jan22   0:16 /usr/libexec/gn
+root     25881  0.0  0.0 307480  3336 ?        S    Jan22   0:00 /usr/bin/seappl
+root     25882  0.0  0.5 1049836 40120 ?       Sl   Jan22   0:06 /usr/bin/gnome-
+root     25887  0.0  0.0 529616  6420 ?        Sl   Jan22   0:00 abrt-applet
+root     25888  0.0  0.0 725096  5692 ?        SNl  Jan22   0:00 /usr/libexec/tr
+root     25889  0.0  0.0 1161900 4124 ?        SNl  Jan22   0:00 /usr/libexec/tr
+root     25892  0.0  0.0 981720  3720 ?        SNl  Jan22   0:00 /usr/libexec/tr
+root     25894  0.0  0.0 550460  3104 ?        SNl  Jan22   0:00 /usr/libexec/tr
+root     25901  0.0  0.1 594792 12072 ?        Sl   Jan22   0:00 /usr/libexec/tr
+root     25904  0.0  0.5 1100516 42392 ?       Sl   Jan22   0:00 /usr/libexec/ev
+root     26003  0.0  0.0      0     0 ?        S<   Jan22   0:00 [kworker/u17:2]
+root     26030  0.0  0.5 1194232 40772 ?       Sl   Jan22   0:00 /usr/libexec/ev
+root     26061  0.0  0.0 299884   948 ?        Sl   Jan22   0:00 /usr/libexec/ib
+root     26091  0.0  0.1 1055432 8212 ?        Sl   Jan22   0:00 /usr/libexec/ev
+root     26093  0.0  0.5 1128484 41204 ?       Sl   Jan22   0:00 /usr/libexec/ev
+root     26104  0.0  0.0 1231832 7616 ?        Sl   Jan22   0:00 /usr/libexec/ev
+root     26122  0.0  0.0 313476  1492 ?        Sl   Jan22   0:00 /usr/libexec/gv
+[stack@localhost ~]$ ls -ltr
+total 0
+[stack@localhost ~]$ ps -aux | grep network
+stack    18101  0.0  0.0 112660   972 pts/0    S+   01:05   0:00 grep --color=auto [01;31m[Knetwork[m[K
+[stack@localhost ~]$ compgen -u
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+ftp
+nobody
+systemd-network
+dbus
+polkitd
+postfix
+chrony
+sshd
+stack
+puppet
+gnocchi
+memcached
+glance
+nagios
+apache
+radvd
+neutron
+mongodb
+ceilometer
+redis
+saslauth
+tss
+mysql
+epmd
+rabbitmq
+cinder
+nova
+nrpe
+swift
+aodh
+keystone
+rpc
+qemu
+rpcuser
+nfsnobody
+unbound
+setroubleshoot
+libstoragemgmt
+usbmuxd
+rtkit
+colord
+abrt
+geoclue
+sssd
+ntp
+pulse
+gdm
+gnome-initial-setup
+tcpdump
+avahi
+[stack@localhost ~]$ 
